@@ -25,7 +25,7 @@ h2 {
 
 a {
   text-decoration: none;
-  color: #999;
+  color: tomato;
 }
 a:hover {
   color: #6633ff;
@@ -35,7 +35,7 @@ a:hover {
 
 .main-nav {
   width: 100%;
-  background: black;
+  background: #47ff63;
   min-height: 30px;
   padding: 10px;
   position: fixed;
@@ -53,7 +53,7 @@ a:hover {
 .nav .name {
     display: block;
     margin-right: auto;
-    color: white;
+    color: tomato;
 }
 .nav li {
   padding: 5px 10px 10px 10px;
@@ -62,7 +62,7 @@ a:hover {
   transition: all .5s;
 }
 .nav a:hover {
-  color: white
+  color: white;
 }
 
 header {
@@ -109,7 +109,7 @@ header .profile-image:hover {
   transition: all .5s;
 }
 .card:hover {
-  border-color: #0399ff;
+  border-color: #47ff63;
 }
 
 ul.skills {
