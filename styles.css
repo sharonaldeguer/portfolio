@@ -25,17 +25,17 @@ h2 {
 
 a {
   text-decoration: none;
-  color: tomato;
+  color: black;
 }
 a:hover {
-  color: #6633ff;
+  color: #ff9904;
 }
 
 /* Section Styles */
 
 .main-nav {
   width: 100%;
-  background: #47ff63;
+  background: #43cd80;
   min-height: 30px;
   padding: 10px;
   position: fixed;
@@ -53,7 +53,7 @@ a:hover {
 .nav .name {
     display: block;
     margin-right: auto;
-    color: tomato;
+    color: white;
 }
 .nav li {
   padding: 5px 10px 10px 10px;
@@ -62,15 +62,31 @@ a:hover {
   transition: all .5s;
 }
 .nav a:hover {
-  color: white;
+  color: black;
 }
 
-header {
+.main {
   text-align: center;
-  background: url('images/san-francisco-skyline-1200.png') no-repeat top center ;
+  background: url('images/workspace.png') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
+}
+.portfolio {
+  text-align: center;
+  background-color: #303030 ;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+}
+.contact {
+  text-align: center;
+  background: url('images/coffee.png') no-repeat top center ;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+  width: 100%;
+  height: 50%;
 }
 header {
   line-height: 1.5;
@@ -95,8 +111,12 @@ header .profile-image:hover {
   margin: 10px auto;
 } 
 .location {
-  background-color: #A6B2B0;
+  background-color: #ff9904;
   color: #1E4456;
+}
+.contact-image {
+	width: 10%;
+
 }
 .card {
   margin: 30px;
@@ -126,9 +146,9 @@ ul.skills {
   margin: 2px;
 }
 
-.skills li:nth-child(odd) {
-  background: #0399ff;
-}
+/*.skills li:nth-child(odd) {
+  background: #;
+}*/
 
 footer {
   width: 100%;
